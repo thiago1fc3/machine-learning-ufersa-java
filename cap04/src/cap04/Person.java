@@ -30,12 +30,4 @@ public class Person {
         return height;
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "height: " + height +
-                ",weight: " + weight +
-                ",sex: " + sex +
-                "}";
-    }
 }
