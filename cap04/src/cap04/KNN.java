@@ -25,7 +25,7 @@ public class KNN {
         return idx;
     }
 
-    public double executeKNN(List<Person> D, Person xt, int k) {
+    public int executeKNN(List<Person> D, Person xt, int k) {
 
         var dic = new HashMap<Person, Double>();
 
